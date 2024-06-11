@@ -850,8 +850,6 @@ I can see the escalation shows as resolved now, but https://github.com/sherlock-
 
 Source: https://github.com/sherlock-audit/2024-02-optimism-2024-judging/issues/90 
 
-The protocol has acknowledged this issue.
-
 ## Found by 
 0xdeadbeef, GalloDaSballo, Trust, bin2chen, ctf\_sec, fibonacci, haxatron, nirohgo, obront, tallo, zigtur
 ## Summary
@@ -1342,6 +1340,12 @@ So in the case of that bug, the service would try to get the block number for th
 
 It's not always clear if the DoS should be judged as indefinite just because the admin can recover from it. However, in this case, the language in the README makes it clear.
 
+**sherlock-admin2**
+
+The protocol team fixed this issue in the following PRs/commits:
+https://github.com/ethereum-optimism/optimism/pull/10438
+
+
 # Issue M-3: Theft of initial bonds from proposers who are using smart wallets 
 
 Source: https://github.com/sherlock-audit/2024-02-optimism-2024-judging/issues/194 
@@ -1718,8 +1722,6 @@ Has nothing to do with this submission.
 
 Source: https://github.com/sherlock-audit/2024-02-optimism-2024-judging/issues/201 
 
-The protocol has acknowledged this issue.
-
 ## Found by 
 MiloTruck, Trust
 ## Summary
@@ -1877,4 +1879,10 @@ Escalation status:
 This was initially deemed invalid by a strict interpretation of our judging guidelines ("Chain re-org and network liveness related issues are not considered valid."). This rule exists as the "blockchain is trusted" from the perspective of app builders. However, a different trust level applies when building an L1/L2.
 
 After a discussion with the lead judge and the protocol team I'm assigning Medium severity.
+
+**sherlock-admin2**
+
+The protocol team fixed this issue in the following PRs/commits:
+https://github.com/ethereum-optimism/optimism/pull/10520/files
+
 
